@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RickAndMorty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Каталог персонажів</h1>
+    <div class="panel">
+        <input type="text" class="search" placeholder="Введіть ім'я персонажа">
+        <select class="status-filter">
+            <option value="">Усі персонажі</option>
+            <option value="alive">Живі</option>
+            <option value="dead">Мертві</option>
+            <option value="unknown">Невідомо</option>
+        </select>
+        <button class="search-button">Пошук</button>
+    </div>
+    <p class="status"></p>
+    <div class="cards"></div>
+    <button class="refresh">Оновити</button>
+
+</body>
+<script src="script.js"></script>
+</html>
