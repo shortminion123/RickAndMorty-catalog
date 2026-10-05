@@ -1,6 +1,6 @@
 # RickAndMorty Catalog
 
-[Переглянути](фдреса)
+[Переглянути](https://shortminion123.github.io/RickAndMorty-catalog/)
 
 ## Стек технологій
  - HTML
